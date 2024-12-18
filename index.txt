@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fellipe Gualberto - Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top-menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="curriculo.html">Currículo</a></li>
+    <li>
+      <a href="https://www.linkedin.com/in/fellipe-gualberto-19b820186/" target="_blank" rel="noopener noreferrer" class="circle-btn">
+        <img src="linkedin.jpg" alt="LinkedIn">
+      </a>
+    </li>
+    <li>
+      <a href="mailto:fellipegualberto82@gmail.com" target="_blank" rel="noopener noreferrer" class="circle-btn">
+        <img src="email.jpg" alt="E-mail">
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<!-- Cabeçalho -->
+  <section class="header">
+    <div class="content">
+      <div class="profile-pic"></div>
+      <h1>Fellipe Gualberto</h1>
+      <h2>Jornalista</h2>
+      <p>Mestre em Linguística e bacharel em Jornalismo pela Unesp. Possuo experiência em jornalismo impresso e digital, escrevo sobre economia e mobilidade urbana. </p>
+    </div>
+  </section>
+
+
+  <!-- Segunda Tela -->
+  <section class="mobilidade">
+    <div class="content">
+      <h1><strong>Mobilidade Estadão</strong></h1>
+      <p>
+        Entre maio e dezembro de 2024, cobri os temas transporte público, inovação e sustentabilidade em meios de transporte no Mobilidade Estadão.
+      </p>
+    </div>
+  </section>
+
+  <!-- Terceira Tela: Carrossel -->
+  <section class="carousel-container">
+    <div class="content">
+      <div class="carousel">
+        <a href="https://mobilidade.estadao.com.br/mobilidade-para-que/dia-a-dia/o-que-uma-espada-de-samurai-algumas-muletas-uma-colecao-de-moedas-e-um-vibrador-tem-em-comum/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image1.jpg');"></div>
+          <h2>O que uma espada de samurai, muletas e algumas dentaduras têm em comum?</h2>
+          <p>Confira outros itens esquecidos no metrô de São Paulo.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/mobilidade-para-que/dia-a-dia/expansao-de-metro-e-trem-em-sp-confira-obras-e-linhas-que-serao-ampliadas/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image2.jpg');"></div>
+          <h2>Expansão de metrô e trem em SP: confira obras e linhas que serão ampliadas</h2>
+          <p>Cidade está com obras de expansão em 5 diferentes frentes; saiba onde ficam.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/inovacao/carro-movido-a-hidrogenio-5-fatos-que-voce-precisa-saber-sobre-a-nova-tecnologia/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image3.jpg');"></div>
+          <h2>Carro movido a hidrogênio: 5 fatos que você precisa saber sobre o veículo</h2>
+          <p>Descubra o potencial dessa tecnologia e se o Brasil já está pronto.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/planeta-eletrico/carro-voador-decola-pela-primeira-vez-no-brasil/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image4.jpg');"></div>
+          <h2>Carro voador decola pela primeira vez no Brasil em voo experimental</h2>
+          <p>Cidade de Quadra foi escolhida para teste da aeronave; veja vídeo.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/meios-de-transporte/moto/fundacao-mapfre-cria-exposicao-interativa-com-foco-em-seguranca-viaria-para-motociclistas/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image5.jpg');"></div>
+          <h2>Fundación Mapfre cria exposição com foco em segurança viária para motociclistas</h2>
+          <p>Motocondutores podem conhecer os riscos que a categoria enfrenta.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/inovacao/o-que-economia-de-baixa-altitude-conheca-o-potencial/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image6.jpg');"></div>
+          <h2>O que é economia de baixa altitude? Conheça o potencial do setor</h2>
+          <p>Turismo, entregas e mobilidade urbana estão dentro do pacote.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/inovacao/barco-voador-na-amazonia-isso-nao-esta-tao-distante-da-realidade/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image7.jpg');"></div>
+          <h2>Barco voador na Amazônia? Essa ideia não está tão distante da realidade</h2>
+          <p>Saiba mais sobre este modal que pode usar os rios da região.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/inovacao/o-vlt-de-sao-paulo-vem-ai-confira-diferentes-projetos-para-o-meio-de-transporte/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image8.jpg');"></div>
+          <h2>O VLT de São Paulo vem ai? Confira diferentes projetos para o modal</h2>
+          <p>Além de ajudar no trajeto diário, modal permitirá revitalização do centro.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/meios-de-transporte/moto/impacto-das-motos-por-aplicativo-no-pib-saiba-como-o-veiculo-movimenta-a-economia-nacional/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image9.jpg');"></div>
+          <h2>O impacto das motos por aplicativo na economia, modal é mesmo benéfico?</h2>
+          <p>Motocicletas movimentam recursos, mas também provocam altos impactos.</p>
+        </a>
+        <a href="https://mobilidade.estadao.com.br/pcd/acessibilidade-no-metro-de-sao-paulo-confira-as-adaptacoes-para-pessoas-com-deficiencia-no-modal/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('image10.jpg');"></div>
+          <h2>Acessibilidade no Metrô de São Paulo, confira as adaptações para PCDs</h2>
+          <p>Saiba como o transporte sobre trilhos se prepara para receber PCDs.</p>
+        </a>
+      </div>
+      <button class="carousel-btn prev">&lt;</button>
+      <button class="carousel-btn next">&gt;</button>
+      <button class="carousel-btn play-pause">Play</button>
+    </div>
+  </section>
+
+  <!-- Quarta Tela: Nova seção com miniaturas de PDF adicionais -->
+  <section class="pdf-section">
+    <div class="content">
+      <div class="pdf-container">
+        <a href="arquivo1.pdf" class="pdf-thumbnail" target="_blank">
+          <img src="previa1.jpg" alt="Miniatura do PDF 1"> <!-- Imagem representativa da primeira página do PDF -->
+        </a>
+        <a href="arquivo2.pdf" class="pdf-thumbnail" target="_blank">
+          <img src="previa2.jpg" alt="Miniatura do PDF 2"> <!-- Imagem representativa da primeira página do PDF -->
+        </a>
+        <a href="arquivo3.pdf" class="pdf-thumbnail" target="_blank">
+          <img src="previa3.jpg" alt="Miniatura do PDF 3"> <!-- Imagem representativa da primeira página do PDF -->
+        </a>
+        <a href="arquivo4.pdf" class="pdf-thumbnail" target="_blank">
+          <img src="previa4.jpg" alt="Miniatura do PDF 4"> <!-- Imagem representativa da primeira página do PDF -->
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quinta Tela -->
+  <section class="mobilidade">
+    <div class="content">
+      <h1><strong>Estadão</strong></h1>
+      <p>
+       Entre setembro e dezembro de 2023, escrevi para as editorias de Economia e Tecnologia durante o 13º Curso Estadão de Jornalismo Econômico, realizado em parceria com a Fundação Getúlio Vargas.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sexta Tela: Carrossel -->
+  <section class="carousel-container">
+    <div class="content">
+      <div class="carousel">
+        <a href="https://www.estadao.com.br/economia/como-deixar-de-ser-um-jovem-nem-nem-veja-resposta-de-especialistas-e-onde-procurar-assistencia/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('10.jpg');"></div>
+          <h2>Como deixar de ser um jovem nem-nem? Veja resposta de especialistas e onde procurar assistência</h2>
+          <p>Soluções envolvem garantir engajamento na escola, dar auxílio aos que têm família e redobrar cuidados com saúde mental.</p>
+        </a>
+        <a href="https://www.estadao.com.br/economia/falta-de-politica-publica-especifica-faz-alto-indice-de-nem-nem-ser-um-problema-cronico/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('9.jpg');"></div>
+          <h2>Falta de política pública específica faz alto índice de jovens nem-nem ser um problema crônico</h2>
+          <p>Mais de um quinto dos brasileiros de 15 a 19 anos está nessa condição; nova iniciativa em parceria com Unicef e OIT pode ajudar.</p>
+        </a>
+        <a href="https://www.estadao.com.br/link/inovacao/bancos-expandem-uso-de-inteligencia-artificial-para-aprimorar-concessao-de-credito-e-seguranca/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('8.jpg');"></div>
+          <h2>Bancos expandem uso de IA para aprimorar concessão de crédito e segurança</h2>
+          <p>Ferramenta também avança no relacionamento com clientes e vem sendo estudada para recomendar investimentos.</p>
+        </a>
+        <a href="https://www.estadao.com.br/cultura/moda/moda-de-segunda-mao-vira-negocio-de-primeira-para-empresarios-consumidores-e-o-planeta-entenda/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('7.jpg');"></div>
+          <h2>Moda de segunda mão vira negócio para empresários, consumidores e o planeta; entenda</h2>
+          <p>Conheça exemplos de reaproveitamento fashion, com roupas recosturadas, compartilhadas ou revendidas.</p>
+        </a>
+        <a href="https://www.estadao.com.br/politica/blog-do-fausto-macedo/entenda-os-impactos-da-unificacao-das-acoes-contra-a-123-milhas/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('6.jpg');"></div>
+          <h2>123 Milhas: como a unificação de ações afeta consumidores prejudicados pela recuperação judicial</h2>
+          <p>Advogado especializado em direito do consumidor analisa as consequências da ação coletiva na 15.ª Vara Cível de Belo Horizonte.</p>
+        </a>
+        <a href="https://www.estadao.com.br/politica/blog-do-fausto-macedo/stf-derruba-lei-municipal-que-corrigia-salario-todo-ano-mas-nao-impoe-devolucao-de-dinheiro/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('5.jpg');"></div>
+          <h2>STF derruba lei municipal que corrigia salário todo ano, mas não impõe devolução</h2>
+          <p>Decisão dos ministros sobre Ibitinga se baseia em julgamentos anteriores; ministros consideram que recebimento de valores foi de ‘boa fé’.</p>
+        </a>
+        <a href="https://www.estadao.com.br/link/gadgets/iphone-15-esquentou-saiba-o-que-fazer-para-esfriar-o-celular/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('4.jpg');"></div>
+          <h2>iPhone 15 esquentou? Saiba o que fazer para esfriar o celular</h2>
+          <p>Atualização da Apple e algumas dicas simples ajudam a evitar o problema.</p>
+        </a>
+        <a href="https://www.estadao.com.br/link/cultura-digital/voce-esta-vendo-posts-no-x-antigo-twitter-publicados-em-1969-conheca-a-causa-do-problema/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('3.jpg');"></div>
+          <h2>Você está vendo posts no X, antigo Twitter, publicados em 1969? Conheça a causa do problema</h2>
+          <p>Computadores contam o tempo de maneira diferente de humanos e isso gerou confusão.</p>
+        </a>
+        <a href="https://borainvestir.b3.com.br/objetivos-financeiros/organizar-as-contas/como-planejar-uma-viagem-internacional-gastando-pouco/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('2.jpg');"></div>
+          <h2>Como planejar uma viagem internacional gastando pouco?</h2>
+          <p>Buscar passagens mais baratas e comprar a moeda estrangeira aos poucos pode te ajudar a viajar para outro país gastando pouco.</p>
+        </a>
+        <a href="https://borainvestir.b3.com.br/objetivos-financeiros/organizar-as-contas/cartao-de-credito-quando-vale-a-pena-usar-e-quais-os-cuidados-necessarios/" target="_blank" class="card">
+          <div class="card-image" style="background-image: url('1.jpg');"></div>
+          <h2>Cartão de crédito: quando vale a pena usar e quais os cuidados necessários</h2>
+          <p>Especialistas explicam quando parcelar a compra no cartão de crédito e alertam: sempre pague o valor total da fatura.</p>
+        </a>
+      </div>
+      <button class="carousel-btn prev">&lt;</button>
+      <button class="carousel-btn next">&gt;</button>
+      <button class="carousel-btn play-pause">Play</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

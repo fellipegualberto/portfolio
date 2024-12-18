@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fellipe Gualberto - Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top-menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="curriculo.html">Currículo</a></li>
+    <li>
+      <a href="https://www.linkedin.com/in/fellipe-gualberto-19b820186/" target="_blank" rel="noopener noreferrer" class="circle-btn">
+        <img src="linkedin.jpg" alt="LinkedIn">
+      </a>
+    </li>
+    <li>
+      <a href="mailto:fellipegualberto82@gmail.com" target="_blank" rel="noopener noreferrer" class="circle-btn">
+        <img src="email.jpg" alt="E-mail">
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Segunda Tela -->
+<section class="mobilidade">
+  <div class="content">
+    <h1><strong> <br> Currículo</strong></h1>
+    <p>
+    </p>
+  </div>
+</section>
+
+<!-- Nova Seção: Colunas com foto retangular e 'lore ipsum' -->
+<section class="nova-secao">
+  <div class="container">
+    <div class="coluna-esquerda">
+      <img src="foto-sua.jpeg" alt="Sua Foto" class="profile-pic">
+    </div>
+    <div class="coluna-direita">
+      <h2>Formação Acadêmica</h2>
+	<br>
+      <p> SET 2023 - DEZ 2023 <br>
+	  <b> Estadão - Fundação Getúlio Vargas </b> <br> Curso de extensão universitária em Jornalismo Econômico <br>
+	<br>
+	  MAR 2021 - SET 2023 <br>
+	  <b> UNESP - Universidade Estadual Paulista Júlio de Mesquita Filho </b> <br> Mestrado em Estudos Linguísticos <br>
+	<br>
+	  ABR 2017 - DEZ 2020 <br>
+	  <b> UNESP - Universidade Estadual Paulista Júlio de Mesquita Filho </b> <br> Bacharel em Jornalismo <br> <br> <br>
+
+      <h2>Experiência profissional</h2>
+	<br>
+      <p> SET 2023 - DEZ 2024 <br>
+	  <b> Estadão - Mobilidade Estadão </b> <br> Produção de matérias para a editoria de Mobilidade Urbana <br> Produção jornalística para o jornal impresso e para web <br> Cobertura de eventos <br>
+	<br>
+	  JUN 2022 - OUT 2022 <br>
+	  <b> Olive Comunicação </b> <br> Redator e revisor de texto <br> Escrita com técnicas de SEO <BR>
+	<br>
+	  MAR 2019 - JUN 2019 <br>
+	  <b> TV Unesp </b> <br> Produção, reterização e gravação de programas <br> Direção de um episódio da série "Estúdio Unesp"  <br> <br> <br>
+
+     <h2>Idiomas</h2>
+	<br>
+	<p> Inglês avançado <br> Francês intermediário
+	
+</p>
+    </div>
+  </div>
+</section>

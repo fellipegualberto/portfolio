@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fellipe Gualberto - Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <section class="header">
+    <div class="content">
+      <div class="profile-pic"></div>
+      <h1>Fellipe Gualberto</h1>
+      <h2>Jornalista</h2>
+      <p>Mestre em Linguística e bacharel em Jornalismo pela Unesp. Possuo experiência em jornalismo impresso, digital e escrevo sobre mobilidade urbana no Estadão.</p>
+    </div>
+  </section>
+
+  <!-- Segunda Tela -->
+  <section class="mobilidade">
+    <div class="content">
+      <h1><strong>Mobilidade Estadão</strong></h1>
+      <p>
+        Cubro transporte público, inovação e sustentabilidade em <br>
+        meios de transporte no Mobilidade Estadão.
+      </p>
+    </div>
+  </section>
+
+  <!-- Terceira Tela: Carrossel -->
+  <section class="carousel-container">
+    <div class="content">
+      <div class="carousel">
+        <div class="card">
+          <div class="card-image"></div>
+          <h2>O que uma espada de samurai, muletas e algumas dentaduras têm em comum?</h2>
+          <p>Confira outros itens curiosos esquecidos no metrô de São Paulo e saiba como resgatar seus objetos no Achados e Perdidos da Estação Sé.</p>
+          <a href="https://mobilidade.estadao.com.br/mobilidade-para-que/dia-a-dia/o-que-uma-espada-de-samurai-algumas-muletas-uma-colecao-de-moedas-e-um-vibrador-tem-em-comum/" class="button">Leia aqui</a>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <h2>Expansão de metrô e trem em SP: confira obras e linhas que serão ampliadas</h2>
+          <p>Cidade está com obras de expansão em 5 diferentes frentes; saiba onde ficam.</p>
+          <a href="https://mobilidade.estadao.com.br/mobilidade-para-que/dia-a-dia/expansao-de-metro-e-trem-em-sp-confira-obras-e-linhas-que-serao-ampliadas/" class="button">Leia aqui</a>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <h2>Carro movido a hidrogênio: 5 fatos que você precisa saber sobre a nova tecnologia</h2>
+          <p>Descubra o potencial dessa tecnologia e se o Brasil já está pronto.</p>
+          <a href="https://mobilidade.estadao.com.br/inovacao/carro-movido-a-hidrogenio-5-fatos-que-voce-precisa-saber-sobre-a-nova-tecnologia/" class="button">Leia aqui</a>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <h2>Carro voador decola pela primeira vez no Brasil em voo experimental realizado no interior de SP</h2>
+          <p>Cidade de Quadra foi escolhida para teste da aeronave; veja vídeo.</p>
+          <a href="https://mobilidade.estadao.com.br/planeta-eletrico/carro-voador-decola-pela-primeira-vez-no-brasil/" class="button">Leia aqui</a>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <h2>Fundación Mapfre cria exposição interativa com foco em segurança viária para motociclistas</h2>
+          <p>Motocondutores podem conhecer os riscos que a categoria enfrenta.</p>
+          <a href="https://mobilidade.estadao.com.br/meios-de-transporte/moto/fundacao-mapfre-cria-exposicao-interativa-com-foco-em-seguranca-viaria-para-motociclistas/" class="button">Leia aqui</a>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <h2>Avanços em transporte elétrico: o futuro das bicicletas elétricas em São Paulo</h2>
+          <p>Explore as novas opções de mobilidade sustentável na cidade.</p>
+          <a href="https://mobilidade.estadao.com.br/meios-de-transporte/bicicleta/avancos-em-transporte-eletrico-o-futuro-das-bicicletas-eletricas-em-sao-paulo/" class="button">Leia aqui</a>
+        </div>
+      </div>
+      <button class="carousel-btn prev">&lt;</button>
+      <button class="carousel-btn next">&gt;</button>
+    </div>
+    <!-- Botão Play/Pause posicionado abaixo -->
+    <button class="carousel-btn play-pause">Play</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

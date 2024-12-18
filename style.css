@@ -1,0 +1,374 @@
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+/* Menu superior fixo */
+.top-menu {
+  position: fixed; /* Fixa o menu no topo */
+  top: 0;
+  width: 100%; /* O menu ocupará toda a largura da tela */
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo branco translúcido */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  z-index: 1000; /* Garante que o menu fique acima de outros elementos */
+  padding: 10px 20px;
+}
+
+.top-menu ul {
+  list-style: none; /* Remove os marcadores padrão */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens à direita */
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+.top-menu li {
+  display: inline;
+}
+
+.top-menu a {
+  text-decoration: none; /* Remove sublinhado dos links */
+  color: #333; /* Cor do texto */
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.top-menu a:hover {
+  background-color: #f0f0f0; /* Fundo ao passar o mouse */
+}
+
+.circle-btn img {
+  width: 40px; /* Tamanho da imagem circular */
+  height: 40px;
+  border-radius: 50%; /* Torna o botão circular */
+  object-fit: cover; /* Ajusta a imagem dentro do círculo */
+  border: 2px solid #ccc; /* Adiciona uma borda */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.circle-btn img:hover {
+  transform: scale(1.1); /* Aumenta ligeiramente ao passar o mouse */
+  border-color: #333; /* Escurece a borda */
+}
+
+/* Adiciona uma margem à esquerda no último botão */
+.top-menu ul li:last-child {
+  margin-right: 50px; /* Ajuste este valor para posicionar melhor */
+}
+
+
+/* Cabeçalho */
+.header {
+  background-image: url('imagem-fundo.jpg'); /* Substitua 'imagem-fundo.jpg' pelo caminho da sua imagem */
+  background-size: cover; /* Ajusta a imagem ao contorno do elemento */
+  color: #000; /* Cor do texto em preto */
+  text-align: center;
+  height: 100vh; /* Ajusta para ocupar a altura total da tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; /* Apenas padding lateral para alinhamento */
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.header h1 {
+  font-size: 56px; /* Aumenta o tamanho da fonte */
+  font-weight: 700; /* Define negrito mais forte */
+  color: #000; /* Cor do texto em preto */
+}
+
+.header h2 {
+  font-size: 28px; /* Aumenta o tamanho da fonte */
+  font-weight: 700; /* Define negrito mais forte */
+  margin: 10px 0;
+  color: #000; /* Cor do texto em preto */
+}
+
+.header p {
+  font-size: 22px; /* Aumenta o tamanho da fonte */
+  font-weight: 700; /* Define negrito */
+  max-width: 600px;
+  margin: 0 auto;
+  color: #000; /* Cor do texto em preto */
+}
+
+/* Segunda tela */
+.mobilidade {
+  background-color: #f4f4f4; /* Cor de fundo igual ao dos PDFs */
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.mobilidade h1 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #000;
+}
+
+.mobilidade p {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Segunda tela */
+.mobilidade {
+  background-color: #f4f4f4; /* Cor de fundo igual ao dos PDFs */
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.mobilidade h1 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #000;
+}
+
+.mobilidade p {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Terceira tela: Carrossel */
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 3cm; /* Subindo o carrossel 3 cm */
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 10px; /* Espaçamento uniforme entre os cards */
+}
+
+.card {
+  flex: 0 0 auto; /* Impede os cards de encolherem ou crescerem */
+  width: calc(20% - 10px); /* Define a largura como percentual, considerando o espaçamento */
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer; /* Define o cursor como mão para indicar que é clicável */
+  transition: transform 0.3s ease; /* Adiciona suavidade ao aumento */
+  text-decoration: none; /* Remove sublinhado do texto */
+  color: #000; /* Define a cor do texto em preto */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aumenta suavemente o card quando o mouse passa por cima */
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  background-size: cover; /* Ajusta a imagem ao contorno do elemento */
+  background-position: center; /* Centraliza a imagem dentro do contorno */
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Botões de navegação do carrossel */
+.carousel-btn {
+  position: absolute;
+  top: 55%; /* Ajustado para baixo */
+  transform: translateY(-50%);
+  background-color: rgba(128, 128, 128, 0.6);
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.play-pause {
+  position: relative;
+  display: block;
+  margin: 30px auto 0; /* Ajustado mais para baixo */
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Nova seção: Miniatura de PDF */
+.pdf-section {
+  background-color: #fff; /* Definido para fundo branco */
+  padding: 50px 20px;
+}
+
+.pdf-container {
+  display: flex;
+  align-items: flex-start; /* Mantém os itens alinhados à esquerda inicialmente */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.pdf-thumbnail {
+  flex: 0 0 300px;
+  height: 450px;
+  background-color: #ccc; /* Cor de fundo da miniatura */
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Adiciona suavidade ao aumento */
+}
+
+.pdf-thumbnail:hover {
+  transform: scale(1.05); /* Aumenta a imagem quando o mouse passa por cima */
+}
+
+.pdf-thumbnail img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover; /* Redefinido para cobrir todo o contorno */
+}
+
+.pdf-text {
+  flex: 1;
+}
+
+.pdf-text h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.pdf-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .card {
+    min-width: 100%;
+  }
+
+  .carousel {
+    flex-direction: column;
+  }
+
+  .prev, .next {
+    display: block;
+  }
+
+  .pdf-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pdf-thumbnail {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* curriculo */
+
+
+/* Nova Seção: Colunas */
+.nova-secao {
+  display: flex;
+  align-items: flex-start;
+  padding: 50px 20px;
+  background-color: #f4f4f4; /* Cor de fundo igual ao dos PDFs */
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.coluna-esquerda,
+.coluna-direita {
+  flex: 1;
+  padding: 20px;
+}
+
+.coluna-esquerda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 600px; /* A foto ocupa metade da tela */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.coluna-direita {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .nova-secao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-pic {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .coluna-esquerda,
+  .coluna-direita {
+    width: 100%;
+    max-width: 300px;
+  }
+}
