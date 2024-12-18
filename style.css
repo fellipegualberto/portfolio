@@ -152,45 +152,45 @@ h1, h2, p {
   line-height: 1.6;
 }
 
-/* Terceira tela: Carrossel */
+/* Carrossel */
 .carousel-container {
   position: relative;
   overflow: hidden;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 3cm; /* Subindo o carrossel 3 cm */
+  margin-top: 3cm;
 }
 
 .carousel {
   display: flex;
   transition: transform 0.5s ease;
-  gap: 10px; /* Espaçamento uniforme entre os cards */
+  gap: 10px;
 }
 
 .card {
-  flex: 0 0 auto; /* Impede os cards de encolherem ou crescerem */
-  width: calc(20% - 10px); /* Define a largura como percentual, considerando o espaçamento */
+  flex: 0 0 auto;
+  width: calc(20% - 10px);
   box-sizing: border-box;
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  cursor: pointer; /* Define o cursor como mão para indicar que é clicável */
-  transition: transform 0.3s ease; /* Adiciona suavidade ao aumento */
-  text-decoration: none; /* Remove sublinhado do texto */
-  color: #000; /* Define a cor do texto em preto */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: #000;
 }
 
 .card:hover {
-  transform: scale(1.05); /* Aumenta suavemente o card quando o mouse passa por cima */
+  transform: scale(1.05);
 }
 
 .card-image {
   width: 100%;
   height: 150px;
-  background-size: cover; /* Ajusta a imagem ao contorno do elemento */
-  background-position: center; /* Centraliza a imagem dentro do contorno */
+  background-size: cover;
+  background-position: center;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -205,10 +205,9 @@ h1, h2, p {
   margin-bottom: 20px;
 }
 
-/* Botões de navegação do carrossel */
 .carousel-btn {
   position: absolute;
-  top: 55%; /* Ajustado para baixo */
+  top: 55%;
   transform: translateY(-50%);
   background-color: rgba(128, 128, 128, 0.6);
   border: none;
@@ -231,7 +230,7 @@ h1, h2, p {
 .play-pause {
   position: relative;
   display: block;
-  margin: 30px auto 0; /* Ajustado mais para baixo */
+  margin: 30px auto 0;
   padding: 10px 20px;
   font-size: 18px;
   background-color: #004080;
@@ -240,6 +239,7 @@ h1, h2, p {
   border-radius: 4px;
   cursor: pointer;
 }
+
 
 /* Nova seção: Miniatura de PDF */
 .pdf-section {
