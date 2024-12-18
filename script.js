@@ -9,16 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const playPauseBtn = carouselContainer.querySelector('.play-pause');
 
     const cardWidth = cards[0].getBoundingClientRect().width + 10; // Inclui o gap entre os cards
-    const visibleCards = Math.floor(carouselContainer.offsetWidth / cardWidth);
+    const visibleCards = window.innerWidth > 768 ? Math.floor(carouselContainer.offsetWidth / cardWidth) : 1;
     const maxIndex = Math.max(0, cards.length - visibleCards);
+
 
     let index = 0;
     let playing = false;
     let interval;
 
-    const updateCarousel = () => {
-      index = index > maxIndex ? 0 : index; // Se o índice ultrapassar o limite, volta para o início
-      carousel.style.transform = `translateX(-${cardWidth * index}px)`;
+	const updateCarousel = () => {
+  	  index = Math.min(index, maxIndex);
+  	carousel.style.transform = `translateX(-${cardWidth * index}px)`;
     };
 
     const showNext = () => {
