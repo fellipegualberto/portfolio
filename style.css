@@ -69,7 +69,7 @@ h1, h2, p {
 
 /* Cabeçalho */
 .header {
-  background-image: url('imagem-fundo.jpg'); /* Substitua 'imagem-fundo.jpg' pelo caminho da sua imagem */
+  background-image: url(''); /* Substitua 'imagem-fundo.jpg' pelo caminho da sua imagem */
   background-size: cover; /* Ajusta a imagem ao contorno do elemento */
   color: #000; /* Cor do texto em preto */
   text-align: center;
