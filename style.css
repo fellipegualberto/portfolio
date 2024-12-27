@@ -69,6 +69,7 @@ h1, h2, p {
 
 /* Cabeçalho */
 .header {
+  background-image: url('imagem-fundo.jpg'); /* Substitua 'imagem-fundo.jpg' pelo caminho da sua imagem */
   background-size: cover; /* Ajusta a imagem ao contorno do elemento */
   color: #000; /* Cor do texto em preto */
   text-align: center;
@@ -196,6 +197,31 @@ h1, h2, p {
     height: 150px;
   }
 }
+
+
+/* Estilo base para o texto do "Sobre Mim" */
+.sobre-mim .texto {
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* Aplicar apenas em telas maiores */
+@media (min-width: 768px) {
+  .sobre-mim .texto {
+    max-width: 600px; /* Define uma largura máxima para o texto */
+  }
+}
+
+
+/* Estilizando o texto em negrito no "Sobre Mim" com um fundo vermelho */
+.sobre-mim .texto b {
+  background-color: red; /* Define o fundo vermelho */
+  color: white; /* Define o texto em branco para contraste, se necessário */
+  padding: 0 2px; /* Adiciona um pequeno espaçamento interno */
+  border-radius: 3px; /* Arredonda levemente os cantos */
+}
+
+
 
 
 /* Estilo para o divisor */
@@ -426,10 +452,10 @@ h1, h2, p {
 
 /* curriculo */
 
-
 /* Nova Seção: Colunas */
 .nova-secao {
   display: flex;
+  flex-direction: row; /* Definido como linha por padrão */
   align-items: flex-start;
   padding: 50px 20px;
   background-color: #f4f4f4; /* Cor de fundo igual ao dos PDFs */
@@ -440,6 +466,7 @@ h1, h2, p {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
 }
 
 .coluna-esquerda,
@@ -468,18 +495,22 @@ h1, h2, p {
 
 @media (max-width: 768px) {
   .nova-secao {
-    flex-direction: column;
+    flex-direction: column; /* Em telas menores, os itens vão para coluna */
     align-items: center;
   }
 
   .profile-pic {
     width: 80%;
     max-width: 300px;
+    margin-bottom: 20px; /* Adicionando espaço abaixo da foto */
   }
 
   .coluna-esquerda,
   .coluna-direita {
     width: 100%;
-    max-width: 300px;
+  }
+
+  .coluna-direita {
+    text-align: center; /* Centralizar texto em telas pequenas */
   }
 }
