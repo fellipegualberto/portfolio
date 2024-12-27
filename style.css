@@ -69,6 +69,7 @@ h1, h2, p {
 
 /* Cabeçalho */
 .header {
+  background-image: url('imagem-fundo.jpg'); /* Substitua 'imagem-fundo.jpg' pelo caminho da sua imagem */
   background-size: cover; /* Ajusta a imagem ao contorno do elemento */
   color: #000; /* Cor do texto em preto */
   text-align: center;
@@ -449,12 +450,13 @@ h1, h2, p {
 
 }
 
+
 /* curriculo */
 
 /* Nova Seção: Colunas */
 .nova-secao {
   display: flex;
-  flex-direction: row; /* Definido como linha por padrão */
+  flex-direction: row; /* Padrão: as colunas ficam lado a lado */
   align-items: flex-start;
   padding: 50px 20px;
   background-color: #f4f4f4; /* Cor de fundo igual ao dos PDFs */
@@ -482,7 +484,6 @@ h1, h2, p {
 
 .profile-pic {
   width: 100%;
-  max-width: 600px; /* A foto ocupa metade da tela */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -493,23 +494,19 @@ h1, h2, p {
 }
 
 @media (max-width: 768px) {
+  /* Flexbox ajustado para telas pequenas */
   .nova-secao {
-    flex-direction: column; /* Em telas menores, os itens vão para coluna */
-    align-items: center;
+    flex-direction: column; /* Altera a direção para coluna em telas pequenas */
+    align-items: center; /* Centraliza o conteúdo */
   }
 
-  .profile-pic {
-    width: 80%;
-    max-width: 300px;
-    margin-bottom: 20px; /* Adicionando espaço abaixo da foto */
+  /* Ocultar a foto em dispositivos pequenos */
+  .coluna-esquerda {
+    display: none; /* A foto desaparece */
   }
 
-  .coluna-esquerda,
   .coluna-direita {
     width: 100%;
-  }
-
-  .coluna-direita {
-    text-align: center; /* Centralizar texto em telas pequenas */
+    text-align: center; /* Centraliza o conteúdo da coluna direita */
   }
 }
